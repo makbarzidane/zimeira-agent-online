@@ -1,34 +1,37 @@
 import os
 
-# Model utama yang stabil untuk logic, kategori layanan, dan aturan katalog.
-PRIMARY_MODEL = os.getenv("PRIMARY_MODEL", "nvidia/nemotron-3-nano-30b-a3b")
+def _get_config(key: str, default: str = "") -> str:
+    value = os.getenv(key)
+    if value:
+        return value
 
-# Model khusus copywriting untuk proposal, sales, caption, dan narasi presentasi.
-COPYWRITER_MODEL = os.getenv("COPYWRITER_MODEL", PRIMARY_MODEL)
+    try:
+        import streamlit as st
+        if key in st.secrets:
+            return str(st.secrets[key])
+    except Exception:
+        pass
 
-# Model khusus arahan desain untuk tone visual, struktur proposal, dan struktur slide.
-DESIGN_MODEL = os.getenv("DESIGN_MODEL", COPYWRITER_MODEL)
+    return default
 
-# Model khusus teknis untuk prompt Codex, planning website, debugging, dan reviewer teknis.
-TECHNICAL_MODEL = os.getenv("TECHNICAL_MODEL", PRIMARY_MODEL)
+PRIMARY_MODEL = _get_config("PRIMARY_MODEL", "nvidia/nemotron-3-nano-30b-a3b")
+COPYWRITER_MODEL = _get_config("COPYWRITER_MODEL", PRIMARY_MODEL)
+DESIGN_MODEL = _get_config("DESIGN_MODEL", COPYWRITER_MODEL)
+TECHNICAL_MODEL = _get_config("TECHNICAL_MODEL", PRIMARY_MODEL)
 
 MODELS = {
-    # Core / logic
     "all_service": PRIMARY_MODEL,
     "brief": PRIMARY_MODEL,
     "checklist": PRIMARY_MODEL,
 
-    # Copywriting
     "sales": COPYWRITER_MODEL,
     "proposal": COPYWRITER_MODEL,
     "caption": COPYWRITER_MODEL,
     "official_proposal": COPYWRITER_MODEL,
     "presentation": COPYWRITER_MODEL,
 
-    # Design
     "design_director": DESIGN_MODEL,
 
-    # Technical
     "codex_prompt": TECHNICAL_MODEL,
     "reviewer": TECHNICAL_MODEL,
 }
