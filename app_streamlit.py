@@ -124,7 +124,7 @@ st.markdown("""<div class="z-hero"><div class="z-kicker">⚡ Panel Internal Zime
 left, right = st.columns([0.88, 1.12], gap="large")
 with left:
     st.markdown("<div class='z-card'><div class='z-card-title'>Data calon pelanggan</div><div class='z-card-desc'>Isi data yang kamu terima dari chat, telepon, atau form pemesanan.</div></div>", unsafe_allow_html=True)
-    nama = st.text_input("Nama pelanggan / usaha", placeholder="Contoh: Kopi Sore Pagaralam")
+    nama = st.text_input("Nama pelanggan / usaha", placeholder="Contoh: Zimeira")
     kontak = st.text_input("Nomor WhatsApp jika ada", placeholder="Contoh: 08xxxxxxxxxx")
     lokasi = st.text_input("Lokasi pelanggan", placeholder="Contoh: Pagaralam, Sumatera Selatan")
     st.markdown("<div class='z-card'><div class='z-card-title'>Kategori layanan</div><div class='z-card-desc'>Pilih kategori. Pertanyaan akan berubah sesuai pilihan.</div></div>", unsafe_allow_html=True)
