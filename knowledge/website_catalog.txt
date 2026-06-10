@@ -1,0 +1,69 @@
+ZIMEIRA TECH - KATALOG WEBSITE FINAL
+
+Aturan khusus website:
+1. Jika kategori adalah Website & SEO atau Maintenance Website, rekomendasi harus mengacu ke katalog ini.
+2. Jangan mengarang harga di luar katalog.
+3. Harga belum termasuk domain berbayar, hosting berbayar, atau fitur custom kecuali ada kesepakatan khusus.
+4. Durasi dihitung setelah data lengkap dan pembayaran sesuai kesepakatan.
+5. Revisi adalah perbaikan ringan, bukan perubahan konsep total.
+6. Website dibuat custom dan bukan WordPress agar fleksibel, ringan, dan sesuai kebutuhan.
+7. Landing Page Basic dan Website Portofolio dibuat tanpa CMS.
+8. Website Usaha Starter ke atas dapat memakai CMS sederhana/custom CMS jika dibutuhkan.
+9. Semua website responsive untuk HP, tablet, dan laptop.
+10. Cafe, resto, homestay, villa, travel, tour guide, kuliner, dan lembaga kecil diarahkan ke UMKM Profesional.
+11. Jika banyak produk/menu/varian/kategori/detail produk, arahkan ke Website Katalog Produk.
+12. Paket Company Profile Premium tidak dijadikan acuan utama.
+
+Paket aktif:
+
+1. Landing Page Basic
+Harga: Rp900.000
+Durasi: 2-4 hari
+Isi: 1 halaman promosi responsif tanpa CMS, hero/banner, profil singkat, layanan/produk utama, kontak, lokasi singkat, tombol WhatsApp, sosial media, CTA, SEO ringan.
+Revisi: 1 kali.
+
+2. Website Portofolio Pribadi
+Harga: Rp1.200.000
+Durasi: 3-5 hari
+Isi: 1 halaman portofolio responsif tanpa CMS, profil, skill, pengalaman, project, kontak, sosial media, link CV/file pendukung, SEO ringan.
+Revisi: 1 kali.
+
+3. Website Usaha Starter
+Harga: Rp2.500.000
+Durasi: 5-8 hari
+Isi: 3 halaman Beranda, Layanan/Produk, Kontak, tombol WhatsApp, Google Maps, sosial media, SEO dasar, optimasi gambar.
+Revisi: 2 kali.
+
+4. UMKM Profesional - Paket Unggulan
+Harga: Rp3.800.000
+Durasi: 7-12 hari
+Isi: 5 halaman Beranda, Tentang, Layanan/Produk, Galeri/Testimoni, Kontak, galeri/testimoni, copywriting awal, WhatsApp, Google Maps, form kontak sederhana, sosial media, SEO dasar lengkap, optimasi gambar/kecepatan, opsi CMS sederhana.
+Revisi: 2 kali.
+Garansi bug: 7 hari setelah online.
+Cocok untuk toko, jasa lokal, cafe, resto, homestay, villa, travel, tour guide, kuliner, kontraktor, kursus, klinik, lembaga kecil, CV kecil, dan UMKM.
+
+5. Website Katalog Produk
+Harga: Rp5.500.000
+Durasi: 12-18 hari
+Isi: beranda, kategori produk, daftar produk, detail produk, input awal sampai 30 produk, foto/nama/harga/deskripsi/tombol WhatsApp, filter sederhana, SEO dasar kategori dan produk.
+Revisi: 3 kali.
+Cocok untuk kopi, oleh-oleh, produk tani, makanan ringan, fashion, toko lokal, katalog menu/produk banyak varian.
+
+Maintenance Website:
+- Basic: Rp150.000/bulan
+- Standar: Rp300.000/bulan
+- Premium: Rp500.000/bulan
+
+Add-on:
+- Tambah halaman: Rp300.000/halaman
+- Tambah produk katalog: Rp15.000/produk
+- Artikel SEO: Rp200.000/artikel
+- Google Business Profile: Rp400.000
+- Form booking sederhana: Rp850.000
+- Kalender ketersediaan sederhana: Mulai Rp750.000
+- Fitur admin custom: Mulai Rp2.500.000
+- Domain budget/custom domain: menyesuaikan harga domain
+
+Bundling:
+- UMKM Go Digital: Rp4.250.000, 7-12 hari, Website UMKM Profesional + logo sederhana + 1 poster promosi.
+- Kopi/Produk Lokal Online: mulai Rp5.900.000, 12-18 hari, Website Katalog Produk + 1 poster promosi.
